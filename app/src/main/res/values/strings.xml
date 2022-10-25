@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImagePicker</string>
+    <string name="all_images">All images</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="label">Pick this image?</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+</resources>

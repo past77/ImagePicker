@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "503180142248",
+    "project_id": "imagepicker-91a23",
+    "storage_bucket": "imagepicker-91a23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503180142248:android:8ddbd91e40ca075cd1849d",
+        "android_client_info": {
+          "package_name": "com.picker.imagepicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503180142248-vso93ldq139uqceqf7k52qv1cs733tkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFsLgRC2fHFcUV9_-hptlFBh-lBZl0G7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503180142248-vso93ldq139uqceqf7k52qv1cs733tkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

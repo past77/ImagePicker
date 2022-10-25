@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/imagePickerFragment">
+
+    <fragment
+        android:id="@+id/imagePickerFragment"
+        android:name="com.picker.imagepicker.ui.ImagePickerFragment"
+        android:label="fragment_note_listing"
+        tools:layout="@layout/image_picker_fragment" >
+
+        <action
+            android:id="@+id/action_imagePickerFragment_to_imageViewFragment"
+            app:destination="@id/imageViewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imageViewFragment"
+        android:name="com.picker.imagepicker.ui.ImageViewFragment"
+        android:label="fragment_note_detail"
+        tools:layout="@layout/image_view_fragment" />
+
+</navigation>
